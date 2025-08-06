@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <meta http-equiv="refresh" content="10;url=https://www.voltas.com">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background: url('https://raw.githubusercontent.com/mapaii/mapaii/1cbad3d7f4508a66edc570d4e8c30665461ff1ad/landingpage_bg.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        .login-box {
+            position: absolute;
+            top: 50px; /* same as original */
+            right: 500px; /* same as original */
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+            width: 300px;
+            text-align: center;
+            color: white;
+        }
+        .highlight-message {
+            background-color: rgba(0, 128, 0, 0.85);
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <div class="highlight-message">
+            Thank you, your discount coupon will be mailed to you shortly.
+        </div>
+    </div>
+</body>
+</html>
